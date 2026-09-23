@@ -2,6 +2,11 @@
 
 A zero-dependency, mobile-first static invitation site inspired by the supplied Tbilisi poster.
 
+## Edit the wording
+
+All visitor-facing text is collected in [`COPY.md`](./COPY.md), grouped by screen.
+Use it to choose replacement wording, then update the corresponding text in `index.html`.
+
 ## Preview locally
 
 Open `index.html` in a browser. No build step is required.
