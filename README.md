@@ -33,10 +33,10 @@ Submit a test RSVP and confirm that it appears in the private Sheet before shari
 The invitation is live at:
 
 ```text
-https://cdn.jsdelivr.net/gh/iona-bartishvili/saturday-date@main/index.html
+https://htmlpreview.github.io/?https://github.com/iona-bartishvili/saturday-date/blob/main/index.html
 ```
 
-This is served for free through jsDelivr directly from the public GitHub repository. Future changes pushed to `main` are published automatically.
+This is rendered for free from the public GitHub repository. Future changes pushed to `main` are available automatically.
 
 ## Publish with GitHub Pages instead
 
