@@ -75,7 +75,10 @@ form.addEventListener("submit", async (event) => {
     await fetch(RSVP_ENDPOINT, {
       method: "POST",
       mode: "no-cors",
-      body: new URLSearchParams({ [RSVP_FIELD]: response }),
+      body: new URLSearchParams({
+        [RSVP_FIELD]: "__other_option__",
+        [`${RSVP_FIELD}.other_option_response`]: response,
+      }),
     });
     showPanel(successContent);
     form.reset();
