@@ -10,48 +10,44 @@ labels intact so each phrase remains easy to locate in `index.html`.
 
 ## Hero
 
-- **Eyebrow:** TBILISI · A VERY GOOD IDEA
+- **Eyebrow:** 
 - **Title:** SATURDAY / DATE
 - **Handwritten subtitle:** thrifting + eating
-- **Introduction:** A little city wandering, a little treasure hunting, and a lot of us.
-- **Route link:** See the route
+- **Introduction:** thrifting+cofee+meal+walking in the park?
+- **Route link:** See the agenda
 
 ## Invitation
 
-- **Stamp:** INVITATION / FOR YOU
+- **Stamp:** INVITATION / FOR THE DATE
 - **Question:** Will you join me?
-- **Headline:** One city. Eight stops. / One very cute Saturday.
 - **Accept button:** I’m in
-- **Decline button:** I can’t make it
-
+- **Decline button:** I can't make it
 ## Route section
 
 - **Eyebrow:** THE ITINERARY
-- **Headline:** OUR LITTLE / CITY ROUTE
+- **Headline:** OUR LITTLE / CITY MAP
 - **Handwritten note:** take your time, enjoy the detours
-- **Poster caption:** The plan: flexible, charming, and open to your additions.
-
+- **Poster caption:** The plan: eseti maniaki damplanveli ar var ubralod cute
 ## Agenda
 
 1. **Meet up** — I’ll pick you up, or we can meet. Your preference, your choice.
 2. **Studio 995** — Vintage furniture & home treasures
 3. **Dae Studio** — Contemporary home decor
 4. **Vintylator** — Vinyls browsing
-5. **Dry Bridge Market** — Old treasures & vinyl hunting
+5. **Dry Bridge Market** — everybody knows that but never been there. yeah.
 6. **Plant Lovers Tbilisi** — Plants, pots & little finds
 7. **Ratto Bistro** — Fingerlicking Italian sandwiches + drinks to go
-8. **Botanical Garden** — A picnic, a walk, and us
-
+8. **Botanical Garden** — guess what? never been there :)
 ## Closing
 
-- **Handwritten note:** If you want to add/remove anything, feel free.
+- **Handwritten note:** If you want to add/remove anything, contact handsome event manager.
 - **Accept button:** Accept the invitation
 
 ## RSVP modal
 
 - **Eyebrow:** SATURDAY IS LOOKING GOOD
 - **Headline:** Let’s make it official.
-- **Intro:** A few important details before our little adventure.
+- **Intro:** A few important details before.
 - **Meet-up question:** How should we meet?
 - **Meet-up choice 1:** Pick me up
 - **Meet-up choice 2:** Let’s meet somewhere
