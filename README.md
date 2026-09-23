@@ -28,7 +28,17 @@ This site deliberately will **not claim a response was saved** until its Google 
 
 Submit a test RSVP and confirm that it appears in the private Sheet before sharing the site.
 
-## Publish free with GitHub Pages
+## Public link
+
+The invitation is live at:
+
+```text
+https://cdn.jsdelivr.net/gh/iona-bartishvili/saturday-date@main/index.html
+```
+
+This is served for free through jsDelivr directly from the public GitHub repository. Future changes pushed to `main` are published automatically.
+
+## Publish with GitHub Pages instead
 
 1. Create an empty GitHub repository named `saturday-date` (do not initialize it with a README).
 2. From this folder, run:
