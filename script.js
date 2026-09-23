@@ -2,7 +2,9 @@
  * Paste the deployed Google Apps Script URL here after following README.md.
  * Until then the form intentionally displays an error instead of pretending to save an RSVP.
  */
-const RSVP_ENDPOINT = "";
+const RSVP_ENDPOINT =
+  "https://docs.google.com/forms/d/e/1FAIpQLSf5FnaCB-IDfUGShohcOiUxzji3jNO6DCYZwbcA_dCclRUENw/formResponse";
+const RSVP_FIELD = "entry.753674719";
 
 const modal = document.querySelector("#rsvp-modal");
 const form = document.querySelector("#rsvp-form");
@@ -62,13 +64,18 @@ form.addEventListener("submit", async (event) => {
   const submitButton = form.querySelector('button[type="submit"]');
   submitButton.disabled = true;
   status.textContent = "Sending your answer…";
-  data.append("submittedAt", new Date().toISOString());
+  const response = [
+    `Meet-up preference: ${data.get("meetup")}`,
+    `Coffee: ${data.get("coffee")}`,
+    `Comment: ${data.get("comment") || "—"}`,
+    `Submitted at: ${new Date().toISOString()}`,
+  ].join("\n");
 
   try {
     await fetch(RSVP_ENDPOINT, {
       method: "POST",
       mode: "no-cors",
-      body: new URLSearchParams(data),
+      body: new URLSearchParams({ [RSVP_FIELD]: response }),
     });
     showPanel(successContent);
     form.reset();
