@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#9d2e15" />
+    <meta
+      name="description"
+      content="A Saturday of thrifting, eating, and wandering around Tbilisi."
+    />
+    <title>Saturday Date — Tbilisi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,500;9..40,700;9..40,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">TBILISI · A VERY GOOD IDEA</p>
+        <h1 id="page-title">SATURDAY<br />DATE</h1>
+        <p class="handwritten">thrifting + eating</p>
+        <p class="intro">
+          A little city wandering, a little treasure hunting, and a lot of us.
+        </p>
+        <a class="scroll-link" href="#the-plan">See the route <span aria-hidden="true">↓</span></a>
+      </section>
+
+      <section class="invitation" aria-label="Date invitation">
+        <span class="stamp">INVITATION<br />FOR YOU</span>
+        <p class="invitation-label">Will you join me?</p>
+        <h2>One city. Eight stops.<br />One very cute Saturday.</h2>
+        <div class="actions">
+          <button class="button button-primary" type="button" data-open-rsvp>
+            I’m in <span aria-hidden="true">↗</span>
+          </button>
+          <button class="button button-secondary" type="button" data-decline>
+            I can’t make it
+          </button>
+        </div>
+      </section>
+
+      <section class="agenda" id="the-plan" aria-labelledby="agenda-title">
+        <div class="section-heading">
+          <p class="eyebrow">THE ITINERARY</p>
+          <h2 id="agenda-title">OUR LITTLE<br />CITY ROUTE</h2>
+          <p class="handwritten">take your time, enjoy the detours</p>
+        </div>
+        <figure class="poster-wrap">
+          <img
+            src="assets/saturday-date-poster.png"
+            alt="Saturday Date poster showing the eight-stop thrift, food, and garden itinerary through Tbilisi"
+          />
+          <figcaption>The plan: flexible, charming, and open to your additions.</figcaption>
+        </figure>
+      </section>
+
+      <section class="stops" aria-label="Agenda stops">
+        <ol>
+          <li><span>01</span><div><strong>Meet up</strong><em>I’ll pick you up, or we can meet. Your preference, your choice.</em></div></li>
+          <li><span>02</span><div><strong>Studio 995</strong><em>Vintage furniture &amp; home treasures</em></div></li>
+          <li><span>03</span><div><strong>Dae Studio</strong><em>Contemporary home decor</em></div></li>
+          <li><span>04</span><div><strong>Vintylator</strong><em>Vinyls browsing</em></div></li>
+          <li><span>05</span><div><strong>Dry Bridge Market</strong><em>Old treasures &amp; vinyl hunting</em></div></li>
+          <li><span>06</span><div><strong>Plant Lovers Tbilisi</strong><em>Plants, pots &amp; little finds</em></div></li>
+          <li><span>07</span><div><strong>Ratto Bistro</strong><em>Fingerlicking Italian sandwiches + drinks to go</em></div></li>
+          <li><span>08</span><div><strong>Botanical Garden</strong><em>A picnic, a walk, and us</em></div></li>
+        </ol>
+      </section>
+
+      <section class="closing">
+        <p class="handwritten">If you want to add/remove anything, feel free.</p>
+        <button class="button button-primary" type="button" data-open-rsvp>
+          Accept the invitation <span aria-hidden="true">↗</span>
+        </button>
+      </section>
+    </main>
+
+    <dialog class="modal" id="rsvp-modal" aria-labelledby="rsvp-title">
+      <button class="close" type="button" data-close-modal aria-label="Close RSVP form">×</button>
+      <div class="modal-content" id="rsvp-content">
+        <p class="eyebrow">SATURDAY IS LOOKING GOOD</p>
+        <h2 id="rsvp-title">Let’s make it official.</h2>
+        <p class="modal-copy">A few important details before our little adventure.</p>
+        <form id="rsvp-form">
+          <fieldset>
+            <legend>How should we meet?</legend>
+            <label class="choice"><input type="radio" name="meetup" value="Pick me up" required /> <span>Pick me up</span></label>
+            <label class="choice"><input type="radio" name="meetup" value="Let’s meet there" /> <span>Let’s meet somewhere</span></label>
+          </fieldset>
+          <fieldset>
+            <legend>Your coffee order?</legend>
+            <div class="coffee-grid">
+              <label class="choice"><input type="radio" name="coffee" value="Americano" required /> <span>Americano</span></label>
+              <label class="choice"><input type="radio" name="coffee" value="Espresso" /> <span>Espresso</span></label>
+              <label class="choice"><input type="radio" name="coffee" value="Lungo" /> <span>Lungo</span></label>
+              <label class="choice"><input type="radio" name="coffee" value="Cappuccino" /> <span>Cappuccino</span></label>
+              <label class="choice matcha"><input type="radio" name="coffee" value="Matcha" /> <span>Matcha <small>(risky)</small></span></label>
+            </div>
+          </fieldset>
+          <label class="comment-label" for="comment">Any additions, requests, or secret wishes?</label>
+          <textarea id="comment" name="comment" rows="3" placeholder="Write a little note..."></textarea>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <button class="button button-primary submit-button" type="submit">
+            Confirm our date <span aria-hidden="true">↗</span>
+          </button>
+        </form>
+      </div>
+      <div class="modal-content hidden" id="matcha-content">
+        <p class="eyebrow">OH NO</p>
+        <h2>Matcha?!</h2>
+        <p class="matcha-message">The date has been very dramatically cancelled. Just kidding — choose another coffee and we can save Saturday.</p>
+        <button class="button button-primary" type="button" data-reconsider>Crisis averted</button>
+      </div>
+      <div class="modal-content hidden" id="decline-content">
+        <p class="eyebrow">A SMALL RAIN CHECK</p>
+        <h2>I’ll save the route.</h2>
+        <p class="modal-copy">No worries at all. The city, the coffee, and the invitation will be here when the timing is right.</p>
+        <button class="button button-primary" type="button" data-close-modal>Close</button>
+      </div>
+      <div class="modal-content hidden" id="success-content">
+        <p class="eyebrow">SEE YOU SATURDAY</p>
+        <h2>It’s a date.</h2>
+        <p class="modal-copy">Your answer is on its way. I’m already looking forward to it.</p>
+        <button class="button button-primary" type="button" data-close-modal>Close</button>
+      </div>
+    </dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
