@@ -19,7 +19,7 @@ labels intact so each phrase remains easy to locate in `index.html`.
 ## Invitation
 
 - **Stamp:** INVITATION / FOR THE DATE
-- **Question:** Will you join me?
+- **Question:** see the plan first. if you like it, will you join?
 - **Accept button:** I’m in
 - **Decline button:** I can't make it
 ## Route section
@@ -46,12 +46,11 @@ labels intact so each phrase remains easy to locate in `index.html`.
 ## RSVP modal
 
 - **Eyebrow:** SATURDAY IS LOOKING GOOD
-- **Headline:** Let’s make it official.
-- **Intro:** A few important details before.
+- **Headline:** A little details to know.
 - **Meet-up question:** How should we meet?
-- **Meet-up choice 1:** Pick me up
-- **Meet-up choice 2:** Let’s meet somewhere
-- **Coffee question:** Your coffee order?
+- **Meet-up choice 1:** Picking me up is not a problem
+- **Meet-up choice 2:** I prefer  meeting somewhere
+- **Coffee question:** Fav coffee order?
 - **Coffee choices:** Americano, Espresso, Lungo, Cappuccino, Matcha
 - **Matcha label:** risky
 - **Comment question:** Any additions, requests, or secret wishes?
